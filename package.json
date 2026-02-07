@@ -1,0 +1,27 @@
+{
+  "name": "stepfun-zapier-integration",
+  "version": "1.0.0",
+  "description": "Zapier integration for Stepfun.ai Text-to-Speech (TTS) service",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testTimeout 10000",
+    "validate": "zapier validate",
+    "build": "zapier build",
+    "push": "zapier push",
+    "lint": "eslint src/**/*.js"
+  },
+  "dependencies": {
+    "zapier-platform-core": "15.x"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "zapier": {
+    "id": 0,
+    "key": "App0"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=6.14.0"
+  }
+}
